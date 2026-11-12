@@ -20,11 +20,18 @@ A standalone [Morphe](https://morphe.software/) patch that removes Instagram not
 
 ## Installation
 
-Add [this repository](https://github.com/brandonp2412/instagram-notification-nudges) as a patch source in [Morphe Manager](https://morphe.software/) after its first stable .mpp release. Select **Hide notification prompts** while patching the matching APK.
+Add [this repository](https://morphe.software/add-source?github=brandonp2412/instagram-notification-nudges) as a patch source in [Morphe Manager](https://morphe.software/). Select **Hide notification prompts** while patching the matching APK.
 
 ## Source and validation
 
 Ported from [GramForge's notification-nudge patch](https://github.com/brandonp2412/GramForge/blob/main/tools/patch-notification-nudges.py). The original Python patch checks a decoded APK for all expected notification-specific anchors before touching anything. The Kotlin implementation uses targeted method fingerprints and preserves unrelated Quick Promotions, Direct-thread banners, and profile UI.
+
+### Verification status
+
+- The official Morphe Desktop 2.1.1 CLI applied the patch to the 454.0.0.13.77 APK with --validate enabled and modified exactly 12 expected classes.
+- Decompiled smali comparison confirms only the expected notification presentation checks and branch guards were modified.
+- A disposable Android 15 emulator installed the patched APK, displayed the Instagram welcome screen, and produced no crash reports.
+- **Authenticated feed/DM notification-prompt behavior and push delivery have not been verified on a logged-in account**; please report any remaining opt-in prompts or regressions.
 
 For reproducing verification:
 
