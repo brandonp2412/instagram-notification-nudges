@@ -38,7 +38,7 @@ No APK, signing key, or third-party application code is included.
 ## Patch list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/brandonp2412/instagram-notification-nudges/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.0.1](https://github.com/brandonp2412/instagram-notification-nudges/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
 <summary>📦 Instagram&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
