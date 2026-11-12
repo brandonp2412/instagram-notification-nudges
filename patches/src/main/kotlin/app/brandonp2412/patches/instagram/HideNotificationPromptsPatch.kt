@@ -14,7 +14,8 @@ import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.patch
 import app.morphe.patcher.util.returnEarly
-import app.morphe.patcher.util.ExternalLabel
+import app.morphe.patcher.util.smali.ExternalLabel
+import app.morphe.patcher.util.matchSingle
 import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 
