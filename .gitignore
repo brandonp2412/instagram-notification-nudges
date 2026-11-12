@@ -132,3 +132,7 @@ node_modules/
 # Ignore IDEA files
 .idea/
 local.properties
+
+# Local Morphe CLI and build outputs
+/tools/
+/dist/

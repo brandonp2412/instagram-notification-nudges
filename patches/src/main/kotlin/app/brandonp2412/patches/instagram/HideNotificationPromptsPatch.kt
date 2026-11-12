@@ -55,7 +55,7 @@ private val activityUpsellRow = Fingerprint(
     definingClass = "LX/0C4e;",
     name = "A0H",
     returnType = "V",
-    strings = listOf("com.instagram.newsfeed.fragment.PushNotificationUpsellRow")
+    parameters = listOf("LX/1BaO;", "Ljava/lang/String;", "Lkotlin/jvm/functions/Function1;", "I")
 )
 
 private val reachabilityFactory = Fingerprint(
